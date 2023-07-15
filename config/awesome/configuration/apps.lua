@@ -16,7 +16,7 @@ return {
 		--- Default web browser
 		web_browser = "firefox",
 		--- Default file manager
-		file_manager = "nautilus",
+		file_manager = "pcmanfm",
 		--- Default network manager
 		network_manager = "wezterm start nmtui",
 		--- Default bluetooth manager
