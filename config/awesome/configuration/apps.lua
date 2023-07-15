@@ -30,10 +30,10 @@ return {
 	--- List of binaries/shell scripts that will execute for a certain task
 	utils = {
 		--- Fullscreen screenshot
-		full_screenshot = "maim ~/Screenshots/$(date +%s).png",
+		full_screenshot = utils_dir .. "screensht full",
 		--- Area screenshot
-		area_screenshot = "maim -s ~/Screenshots",
+		area_screenshot = utils_dir .. "screensht area",
 		--- Color Picker
-		color_picker = "xcolor",
+		color_picker = utils_dir .. "xcolor-pick",
 	},
 }
